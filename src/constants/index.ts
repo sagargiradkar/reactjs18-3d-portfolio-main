@@ -51,19 +51,27 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "React Developer",
+    icon: backend,
   },
   {
     title: "React Native Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Web Developer",
+    icon: web,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
+    icon: creator,
+  },
+  {
+    title: "Backend Developer",
+    icon: creator,
+  },
+  {
+    title: "Full Stack Java Developer",
     icon: creator,
   },
 ];
@@ -106,10 +114,6 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -125,54 +129,42 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "React-Native Full Stack Developer Intern",
+    companyName: "Real List.Ai Technologies,Benguluru",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jully 2024 - Octomber 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a cross-platform mobile app with React Native, enhancing UI and boosting data retrieval by 40% using Express.js & Node.js for over 5,000 active users.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "React Native Developer Intern",
+    companyName: "Girl Script Summer of Code , Pune , India",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining applications using React Native and other related technologies.",
+      "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
+      "Designed a healthcare app UI using React Native, improving user engagement and reducing support queries by 30%.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Software Engineering Intern",
+    companyName: "Argyle Enigma Tech Lab ,Ahemadabad",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Octomber 2023 - April 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developed and deployed RESTful APIs for the Fili: Financial Literacy app, showcasing React Native skills and app publishing on Google Play.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Utilized JIRA for project management, ensuring efficient task tracking.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -182,41 +174,25 @@ const testimonials: TTestimonial[] = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Kamlesh Jambhulkar",
+    designation: "Founder",
+    company: "Smile Computer Education",
+    image: "",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Razorpay Clone Website UI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Razorpay is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite .",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
@@ -225,15 +201,23 @@ const projects: TProject[] = [
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/sagargiradkar/Razorpay-Clone",
   },
   {
-    name: "Job IT",
+    name: "Shopping Cart App UI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project is a simple shopping cart application built with React, Redux, and Tailwind CSS. It allows users to browse products, add them to the cart, and proceed to checkout.The state management is handled using Redux, providing a predictable and centralized way to manage application state.",
     tags: [
       {
         name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
         color: "blue-text-gradient",
       },
       {
@@ -241,17 +225,17 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/sagargiradkar/shopping-cart",
   },
   {
-    name: "Trip Guide",
+    name: "Hotstar Website Clone UI",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Disney + Hotstar is an Indian subscription video on-demand over-the-top streaming service owned by The Walt Disney Company India and operated by Disney Streaming .",
     tags: [
       {
         name: "nextjs",
@@ -267,7 +251,7 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/sagargiradkar/Disney-Hostar-website",
   },
 ];
 

@@ -40,50 +40,48 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: 'Sagar Giradkar — 3D Portfolio',
+    fullName: 'Sagar Prakash Giradkar',
+    email: 'spgiradkar2002@gmail.com',
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: 'Sagar Giradkar',
+    p: [
+      'a passionate Full-Stack Developer. This is the space where you can dive into my exciting journey in the world of web development and software engineering.',
+    ],
   },
   contact: {
-    p: "Get in touch",
-    h2: "Contact.",
+    p: 'Get in touch',
+    h2: 'Contact.',
     form: {
       name: {
-        span: "Your Name",
+        span: 'Your Name',
         placeholder: "What's your name?",
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
+      email: { span: 'Your Email', placeholder: "What's your email?" },
       message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
+        span: 'Your Message',
+        placeholder: 'What do you want to say?',
       },
     },
   },
   sections: {
     about: {
-      p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      p: 'Introduction',
+      h2: 'Overview.',
+      content: `I'm Sagar , a passionate Full-Stack Developer. This is the space where you can dive into my exciting journey in the world of web development and software engineering. I've dedicated myself to creating captivating user interfaces and crafting robust software solutions.`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: 'What I have done so far',
+      h2: 'Work Experience.',
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: 'What others say',
+      h2: 'Testimonials.',
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
+      p: 'My work',
+      h2: 'Projects.',
       content: `Following projects showcases my skills and experience through
     real-world examples of my work. Each project is briefly described with
     links to code repositories and live demos in it. It reflects my
