@@ -24,14 +24,18 @@ import {
   git,
   figma,
   docker,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
 } from "../assets";
-
+import realListLogo from "../assets/company/realListLogo.png"
+import argyleEnigma from "../assets/company/argyleEnigma.png"
+import GS_logo_Black from "../assets/company/GS_logo_Black.png"
+import razorpay from "../assets/projects/Pixel True Mockup.png"
+import shopingCart from "../assets/projects/Pixel True Mockup (5).png"
+import hotstar from "../assets/projects/Pixel True Mockup (3).png"
+import freshFood from "../assets/projects/Pixel True Mockup (4).png"
+import discord from "../assets/projects/Pixel True Mockup (10).png"
 export const navLinks: TNavLink[] = [
   {
     id: "about",
@@ -129,7 +133,7 @@ const experiences: TExperience[] = [
   {
     title: "React-Native Full Stack Developer Intern",
     companyName: "Real List.Ai Technologies,Benguluru",
-    icon: starbucks,
+    icon: realListLogo,
     iconBg: "#383E56",
     date: "Jully 2024 - Octomber 2024",
     points: [
@@ -143,7 +147,7 @@ const experiences: TExperience[] = [
   {
     title: "React Native Developer Intern",
     companyName: "Girl Script Summer of Code , Pune , India",
-    icon: tesla,
+    icon: GS_logo_Black,
     iconBg: "#E6DEDD",
     date: "May 2024 - August 2024",
     points: [
@@ -156,7 +160,7 @@ const experiences: TExperience[] = [
   {
     title: "Software Engineering Intern",
     companyName: "Argyle Enigma Tech Lab ,Ahemadabad",
-    icon: shopify,
+    icon: argyleEnigma,
     iconBg: "#383E56",
     date: "Octomber 2023 - April 2024",
     points: [
@@ -175,7 +179,7 @@ const testimonials: TTestimonial[] = [
     name: "Kamlesh Jambhulkar",
     designation: "Founder",
     company: "Smile Computer Education",
-    image: "",
+    image: razorpay,
   },
 ];
 
@@ -198,7 +202,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: razorpay,
     sourceCodeLink: "https://github.com/sagargiradkar/Razorpay-Clone",
   },
   {
@@ -227,7 +231,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: shopingCart,
     sourceCodeLink: "https://github.com/sagargiradkar/shopping-cart",
   },
   {
@@ -236,22 +240,86 @@ const projects: TProject[] = [
       "A clone of Disney+ Hotstar's UI, providing an immersive experience for browsing and streaming content. Built with Next.js, Supabase, and CSS for seamless performance and aesthetics.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: hotstar,
     sourceCodeLink: "https://github.com/sagargiradkar/Disney-Hostar-website",
   },
+  {
+    name: "Fresh Food Delivery",
+    description:
+      "Online food ordering is the process of ordering food, for delivery or pickup, from a website or other application.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: freshFood,
+    sourceCodeLink: "https://github.com/sagargiradkar/Fresh-Food-Delivery",
+  },
+  {
+    name: "Grocery Website",
+    description:
+      "The Grocery Website is a virtual marketplace where customers can browse, select, and purchase a wide range of grocery products online.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: freshFood,
+    sourceCodeLink: "https://github.com/sagargiradkar/Grocery-Website",
+  },
+  {
+    name: "Discord Clone",
+    description:
+      "Discord clone project created using HTML, Tailwind CSS, and JavaScript. This project replicates the user interface and basic functionality of Discord.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: discord,
+    sourceCodeLink: "https://github.com/sagargiradkar/Discord-Clone",
+  },
 ];
+
 
 
 export { services, technologies, experiences, testimonials, projects };
