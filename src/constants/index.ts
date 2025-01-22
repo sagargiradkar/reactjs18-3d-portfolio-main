@@ -24,14 +24,12 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -185,7 +183,7 @@ const projects: TProject[] = [
   {
     name: "Razorpay Clone Website UI",
     description:
-      "Razorpay is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite .",
+      "A clone of Razorpay's UI, showcasing a sleek and functional interface for businesses to manage payments, built with HTML, CSS, and Tailwind for a responsive and modern design.",
     tags: [
       {
         name: "HTML",
@@ -206,7 +204,7 @@ const projects: TProject[] = [
   {
     name: "Shopping Cart App UI",
     description:
-      "This project is a simple shopping cart application built with React, Redux, and Tailwind CSS. It allows users to browse products, add them to the cart, and proceed to checkout.The state management is handled using Redux, providing a predictable and centralized way to manage application state.",
+      "A shopping cart app built with React, Redux, and Tailwind CSS. It enables browsing products, managing a cart, and proceeding to checkout with centralized state management using Redux.",
     tags: [
       {
         name: "react",
@@ -235,7 +233,7 @@ const projects: TProject[] = [
   {
     name: "Hotstar Website Clone UI",
     description:
-      "Disney + Hotstar is an Indian subscription video on-demand over-the-top streaming service owned by The Walt Disney Company India and operated by Disney Streaming .",
+      "A clone of Disney+ Hotstar's UI, providing an immersive experience for browsing and streaming content. Built with Next.js, Supabase, and CSS for seamless performance and aesthetics.",
     tags: [
       {
         name: "nextjs",
@@ -254,5 +252,6 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/sagargiradkar/Disney-Hostar-website",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
