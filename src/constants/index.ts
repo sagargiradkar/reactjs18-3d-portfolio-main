@@ -24,9 +24,6 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
 } from "../assets";
 import realListLogo from "../assets/company/realListLogo.png"
 import argyleEnigma from "../assets/company/argyleEnigma.png"
